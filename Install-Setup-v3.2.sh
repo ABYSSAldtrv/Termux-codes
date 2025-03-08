@@ -21,4 +21,4 @@ pkg install -y mono
 ln -sf /data/data/com.termux/files/usr/bin/lua53 /data/data/com.termux/files/usr/bin/lua
 
 # Exibe mensagem de conclusão
-echo "Instalação concluída com sucesso!"
+echo "Instalação concluída com sucesso!!"
