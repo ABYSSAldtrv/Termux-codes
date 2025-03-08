@@ -4,7 +4,7 @@
 mostrar_menu() {
     clear
     echo "Escolha uma opção:"
-    echo "1) Instalar Setup (Install-Setup-v3.2)"
+    echo "1) Instalar Setup (Install-Setup-v3.3)"
     echo "2) Atualizar Sistema (Update-System-v1.2)"
     echo "3) Sair"
 }
@@ -13,7 +13,7 @@ mostrar_menu() {
 install_setup() {
     echo "Instalando Setup..."
     # Aqui vai o comando para rodar o script de instalação
-    bash Install-Setup-v3.2.sh
+    bash Install-Setup-v3.3.sh
     echo "Instalação Concluída!"
     read -p "Pressione qualquer tecla para continuar..." qualquer_tecla
 }
